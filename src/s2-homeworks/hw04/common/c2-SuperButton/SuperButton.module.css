@@ -1,9 +1,15 @@
 .button {
+    padding: 5px 24px;
+    gap: 10px;
+    color: #DDEEFF;
+    border-radius: 3px;
+    background:  #036ad2;
 }
 
 .disabled {
     color: #001bcc;
 background: darkgray;
+    opacity: 0.5;
 
 }
 
