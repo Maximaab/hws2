@@ -2,35 +2,49 @@
 }
 
 .disabled {
+    color: #001bcc;
+background: darkgray;
+
 }
 
 .secondary {
+    background: #DDEEFF;
 }
 
 .default {
+    background: #001bcc;
 }
 
 .red {
+    color: #00cc22;
+    background: #ff0404;
 }
 
 .default:hover {
+    background: #0066CC;
 }
 
 .red:hover {
+    background: #f37272;
 }
 
 .secondary:hover {
+    background: #333338;
 }
 
 
 .default:active {
+    background: #00cc22;
 }
 
 .secondary:active {
+    background: #00cc22;
 }
 
 .red:active {
+    background: rgba(124, 3, 3, 0.96);
 }
 
 .button:disabled {
+    background: #e8e9ef;
 }
