@@ -1,8 +1,10 @@
 .App {
     --header_height: 60px;
+
 }
 
 .hw {
+
     justify-content: center;
     align-items: center;
     padding: 0 0 216px;

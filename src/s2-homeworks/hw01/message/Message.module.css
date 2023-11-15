@@ -1,8 +1,11 @@
 .message {
 
+
 }
 
 .imageAndText {
+    display: flex;
+    flex-direction: row-reverse;
 
 }
 
@@ -22,7 +25,7 @@
 }
 
 .name {
-    color: #FFF;
+    color: #250f0f;
     font-family: Montserrat;
     font-size: 18px;
     font-style: normal;
@@ -31,7 +34,7 @@
 }
 
 .messageText {
-    color: #FFF;
+    color: #211212;
     font-family: Montserrat;
     font-size: 16px;
     font-style: normal;
@@ -40,10 +43,13 @@
 }
 
 .time {
+    display: flex;
+    flex-direction: row-reverse;
     color: #000;
     font-family: Montserrat;
     font-size: 10px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+
 }

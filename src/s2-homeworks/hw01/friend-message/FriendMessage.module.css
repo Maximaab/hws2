@@ -1,5 +1,6 @@
 .friendMessage {
 
+    flex-direction: row;
 }
 
 .friendImageAndText {
