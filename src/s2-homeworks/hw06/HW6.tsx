@@ -18,11 +18,12 @@ const HW6 = () => {
     const [value, setValue] = useState<string>('')
 
     const save = () => {
-        saveState<string>('hw6-editable-span-value', value)
+        saveState<StateType>('hw6-editable-span-value',{ x: value, y: 0 })
+        setValue('')
     }
     const restore = () => {
-        saveState<StateType>('hw6-restore', { x: 'A', y: 1 })
-        const state: StateType = restoreState<StateType>('hw6-restore', { x: '', y: 0 })
+        // restoreState<StateType>('hw6-editable-span-value-restore', { x: value, y: 1 })
+        const state: StateType = restoreState<StateType>('hw6-editable-span-value', { x: '', y: 0 })
         setValue(state.x)
     }
 
@@ -53,7 +54,7 @@ const HW6 = () => {
                         onClick={restore}
                         xType={'secondary'}
                     >
-                        Get from ls
+                        Get from is
                     </SuperButton>
                 </div>
             </div>
