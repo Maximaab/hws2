@@ -1,5 +1,12 @@
 .buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
 }
 
 .editableSpanContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }

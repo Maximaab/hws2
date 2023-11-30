@@ -1,15 +1,30 @@
 .radio {
+    margin-right: 12px;
 }
 
 .radio::before {
+    margin-right: 12px;
 }
 
 
 .radio:checked::before {
+    margin-right: 12px;
 }
 
 .label {
+    display: flex;
+
+    margin-bottom: 20px;
+
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .options {
+    margin-left: 127px;
 }

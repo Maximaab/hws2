@@ -12,6 +12,7 @@
 }
 
 .hwTitle {
+    margin-left: 70px;
     color: #000;
     font-family: Montserrat;
     font-size: 22px;
@@ -19,4 +20,7 @@
     font-weight: 600;
     line-height: normal;
     padding: 131px 0 0
+
+
+
  }
