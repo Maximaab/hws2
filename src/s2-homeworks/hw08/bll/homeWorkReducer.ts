@@ -1,4 +1,5 @@
-import {UserType} from '../HW8'
+import {UserType} from "../HW8";
+
 
 type ActionType =
     | { type: 'sort'; payload: 'up' | 'down' }
@@ -6,7 +7,8 @@ type ActionType =
 
 export const homeWorkReducer = (state: any, action: any): any => { // need to fix any
     switch (action.type) {
-        case 'sort': { // by name
+        case 'sort': {
+           // by name
 
             return state // need to fix
         }
