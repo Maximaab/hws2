@@ -1,9 +1,19 @@
 .button {
     padding: 5px 24px;
     gap: 10px;
-    color: #DDEEFF;
+
     border-radius: 3px;
-    background:  #036ad2;
+
+    color: #06C;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+
+    border-radius: 3px;
+    border: 1px solid #06C;
+
 }
 
 .disabled {
@@ -14,11 +24,14 @@ background: darkgray;
 }
 
 .secondary {
-    background: #DDEEFF;
+    background: #0377ea;
+    background-color: #f1f3f5;
+    margin-left: 24px;
 }
 
 .default {
     background: #001bcc;
+    margin-left: 70px   ;
 }
 
 .red {
@@ -31,11 +44,11 @@ background: darkgray;
 }
 
 .red:hover {
-    background: #f37272;
+    background: #f10505;
 }
 
 .secondary:hover {
-    background: #333338;
+    background: #053196;
 }
 
 
