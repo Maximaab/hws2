@@ -1,23 +1,41 @@
 .item {
+
 }
 
 .item:last-of-type {
+
 }
 
 .users {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
 
 .buttonsContainer {
+padding-top: 33px;
+    padding-left: 307px;
 }
 
 .container {
+
 }
 
 .thead {
+    width: 606px;
+    height: 36px;
+        flex-shrink: 0;
+    background: #b4b9be;
+
 }
 
 .nameCol {
+    padding-left: 20px;
 }
 
 .ageCol {
+
 }
