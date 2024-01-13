@@ -8,7 +8,7 @@ function Clock() {
     // for autotests // не менять // можно подсунуть в локалСторэдж нужную дату, чтоб увидеть как она отображается
     const [date, setDate] = useState<Date>(new Date(restoreState('hw9-date', Date.now())))
     const [show, setShow] = useState<boolean>(false)
-    const [isSetInterval, setIsSetInterval] = useState<boolean>(true)
+    const [isSetInterval, setIsSetInterval] = useState<boolean>(false)
     const start = () => {
 
         const id: number = +setInterval(() => {
