@@ -20,14 +20,15 @@ const themes = [
 
 const HW12 = () => {
     // взять ид темы из редакса
-    const themeId = useSelector<initialType>(state => state.themeId)
+    const themeId = useSelector<initialType>((state:any) => state?.theme.themeId)
     const dispatch = useDispatch()
     const change = (id: number) => { // дописать функцию
         dispatch(changeThemeId(id))
     }
 
     useEffect(() => {
-        document.documentElement.dataset.theme = themeId + ''
+        console.log(themeId)
+       document.documentElement.dataset.theme = themeId + ''
     }, [themeId])
 
     return (
